@@ -12,8 +12,7 @@ function App() {
       </header>
 
       <Productos/>
-      <Productos/>
-      <Productos/>
+    
 
       <footer>Creado por Leonel Bellabarba</footer>
     </div>

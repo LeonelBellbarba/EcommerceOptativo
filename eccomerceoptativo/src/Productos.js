@@ -9,7 +9,7 @@ class Productos extends Component{
         this.state={
             listaProductos: [
                 {
-                    nombre: "Cafetera Atma Desayuno CA8143",
+                    nombre: "Cafetera Atma",
                     precio: "3.699",
                     descripcion: "Procesador AMD Ryzen 5 5600G",
                     sku: 412351123415512,
@@ -17,18 +17,20 @@ class Productos extends Component{
                     imagen: "../Images/Cafetera.jpg"
                 },
                  {
-                    nombre: "Solarmax Amd Ryzen 5",
+                    nombre: "Solarmax Amd",
                     precio: "85.990",
                     descripcion: "Procesador AMD Ryzen 5 5600G",
                     sku: 412351123415512,
-                    cantDisponible: 4
+                    cantDisponible: 4,
+                    imagen: "../Images/Cafetera2.jpg"
                 },
                 {
-                    nombre: "Solarmax Amd Ryzen 5",
+                    nombre: "Solarmax Amd 5",
                     precio: "85.990",
                     descripcion: "Procesador AMD Ryzen 5 5600G",
                     sku: 412351123415512,
-                    cantDisponible: 4
+                    cantDisponible: 4,
+                    imagen: "../Images/Cafetera3.jpg"
                 }
             ]
         }

@@ -21,15 +21,26 @@ class ProductosDatos extends Component{
     render(){
         return(
                 
-            <div className = "datos">
-                <img src ={this.props.imagen}/>
-                <p className ="datoNombre">{this.props.nombre}</p>
-                <p className= "datoPrecio">{this.props.precio}</p>
-                <p className="datoDescripcion">Descripcion:<br></br>{this.props.descripcion}</p>
-                <p className= "datoSku">Sku:<br></br>{this.props.sku}</p>
-                <p className= "datoCantDis">Disponible:<br></br>{this.props.cantDisponible}</p>
-                <button onClick = {this.handleClick}>{this.state.botonComprar}</button>
+            <div className = "datos" style={{backgroundImage: `url(${this.props.imagen})`}}>
+
+                
+                <div className="datosContenido">
+                    <p className ="datoNombre">{this.props.nombre}</p>
+                    <p className= "datoPrecio">{this.props.precio}</p>
+                    
+                    <p className="datoDescripcion">Descripcion:{this.props.descripcion}</p>
+                    <p className= "datoSku">Sku:<br></br>{this.props.sku}</p>
+                    <p className= "datoCantDis">Disponible:<br></br>{this.props.cantDisponible}</p>
+                    <button onClick = {this.handleClick}>{this.state.botonComprar}</button>
+
+                </div>
+                
+                <div>
+
+                </div>
             </div>
+
+            
         )
     }
 }
