@@ -28,10 +28,15 @@ class ProductosDatos extends Component{
                     <p className ="datoNombre">{this.props.nombre}</p>
                     <p className= "datoPrecio">{this.props.precio}</p>
                     
-                    <p className="datoDescripcion">Descripcion:{this.props.descripcion}</p>
-                    <p className= "datoSku">Sku:<br></br>{this.props.sku}</p>
-                    <p className= "datoCantDis">Disponible:<br></br>{this.props.cantDisponible}</p>
+                    <p className="datoDescripcion"><span>Descripcion:</span></p>
+                    <p className="datoDescripcion">{this.props.descripcion}</p>
+                    <p className= "datoSku"><span>Sku:</span></p>
+                    <p className= "datoSku">{this.props.sku}</p>
+                    <p className= "datoCantDis"><span>Disponible:</span></p>
+                    <p className= "datoCantDis">{this.props.cantDisponible}</p>
                     <button onClick = {this.handleClick}>{this.state.botonComprar}</button>
+
+                    
 
                 </div>
                 
