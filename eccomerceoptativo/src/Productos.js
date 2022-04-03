@@ -14,7 +14,7 @@ class Productos extends Component{
                     descripcion: "Procesador AMD Ryzen 5 5600G",
                     sku: 412351123415512,
                     cantDisponible: 4,
-                    imagen: "../Images/Cafetera.jpg"
+                    imagen: "../Images/Notebook1.jpg"
                 },
                  {
                     nombre: "Notebook Samsung",
@@ -22,7 +22,7 @@ class Productos extends Component{
                     descripcion: "Procesador i3 4gb memoria RAM",
                     sku: 412351123415512,
                     cantDisponible: 4,
-                    imagen: "../Images/Cafetera2.jpg"
+                    imagen: "../Images/Notebook2.jpg"
                 },
                 {
                     nombre: "Solarmax Amd 5",
@@ -30,7 +30,7 @@ class Productos extends Component{
                     descripcion: "Procesador AMD Ryzen 3 560G",
                     sku: 412351123415512,
                     cantDisponible: 4,
-                    imagen: "../Images/Cafetera3.jpg"
+                    imagen: "../Images/Notebook3.jpg"
                 }
             ]
         }
